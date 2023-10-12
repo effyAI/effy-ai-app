@@ -28,6 +28,3 @@ def calculate_api():
         #print("Post data reading error:",e) # Send error to server 
         return {"error":403}
     
-
-if __name__ == "__main__":
-    app.run(port=5000)
